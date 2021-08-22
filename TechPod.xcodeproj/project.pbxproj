@@ -13,6 +13,12 @@
 		804C6C2E26D2B86100728BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C2C26D2B86100728BFF /* Main.storyboard */; };
 		804C6C3026D2B86400728BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C2F26D2B86400728BFF /* Assets.xcassets */; };
 		804C6C3326D2B86400728BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C3126D2B86400728BFF /* LaunchScreen.storyboard */; };
+		804C6C4426D2BB4A00728BFF /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C3D26D2BB4A00728BFF /* cannon.mp3 */; };
+		804C6C4526D2BB4A00728BFF /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C3E26D2BB4A00728BFF /* elise.mp3 */; };
+		804C6C4626D2BB4A00728BFF /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C3F26D2BB4A00728BFF /* aria.mp3 */; };
+		804C6C4726D2BB4A00728BFF /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C4126D2BB4A00728BFF /* Beethoven.jpg */; };
+		804C6C4826D2BB4A00728BFF /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C4226D2BB4A00728BFF /* Pachelbel.jpg */; };
+		804C6C4926D2BB4A00728BFF /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804C6C4326D2BB4A00728BFF /* Bach.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		804C6C2F26D2B86400728BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804C6C3226D2B86400728BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804C6C3426D2B86400728BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804C6C3D26D2BB4A00728BFF /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		804C6C3E26D2BB4A00728BFF /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		804C6C3F26D2BB4A00728BFF /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		804C6C4126D2BB4A00728BFF /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		804C6C4226D2BB4A00728BFF /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		804C6C4326D2BB4A00728BFF /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +73,40 @@
 				804C6C2A26D2B86100728BFF /* ViewController.swift */,
 				804C6C2C26D2B86100728BFF /* Main.storyboard */,
 				804C6C2F26D2B86400728BFF /* Assets.xcassets */,
+				804C6C3B26D2BB4A00728BFF /* Resources */,
 				804C6C3126D2B86400728BFF /* LaunchScreen.storyboard */,
 				804C6C3426D2B86400728BFF /* Info.plist */,
 			);
 			path = TechPod;
+			sourceTree = "<group>";
+		};
+		804C6C3B26D2BB4A00728BFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				804C6C3C26D2BB4A00728BFF /* Songs */,
+				804C6C4026D2BB4A00728BFF /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		804C6C3C26D2BB4A00728BFF /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				804C6C3D26D2BB4A00728BFF /* cannon.mp3 */,
+				804C6C3E26D2BB4A00728BFF /* elise.mp3 */,
+				804C6C3F26D2BB4A00728BFF /* aria.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		804C6C4026D2BB4A00728BFF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				804C6C4126D2BB4A00728BFF /* Beethoven.jpg */,
+				804C6C4226D2BB4A00728BFF /* Pachelbel.jpg */,
+				804C6C4326D2BB4A00728BFF /* Bach.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				804C6C3326D2B86400728BFF /* LaunchScreen.storyboard in Resources */,
+				804C6C4426D2BB4A00728BFF /* cannon.mp3 in Resources */,
+				804C6C4926D2BB4A00728BFF /* Bach.jpg in Resources */,
+				804C6C4526D2BB4A00728BFF /* elise.mp3 in Resources */,
 				804C6C3026D2B86400728BFF /* Assets.xcassets in Resources */,
+				804C6C4826D2BB4A00728BFF /* Pachelbel.jpg in Resources */,
 				804C6C2E26D2B86100728BFF /* Main.storyboard in Resources */,
+				804C6C4626D2BB4A00728BFF /* aria.mp3 in Resources */,
+				804C6C4726D2BB4A00728BFF /* Beethoven.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
